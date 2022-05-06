@@ -1,0 +1,21 @@
+Nome Tabella: Catalogo_Auto
+
+Colonne:
+ id_auto => TINYINT;
+ marca => Varchar(50);
+ modello => Varchar(50);
+ url_img => Varchar(255);
+ prezzo => DECIMAL(6,3);
+ chilometraggio => DOUBLE(6,3);
+ anno_immatricolazione => YEAR;
+ colore => Varchar(30);
+ targa => Varchar(7);
+ alimentazione => Varchar(15);
+ cilindrata => MEDIUMINT;
+ kilowatt => MEDIUMINT;
+ cavalli_motore => MEDIUMINT;
+ carrozzeria => Varchar(20);
+ porte => TINYINT;
+ cambio => Varchar(15);
+ note => TEXT;
+ 
